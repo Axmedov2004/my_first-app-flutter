@@ -19,7 +19,7 @@ class ListViewScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('ListView va Scrollbar bilan ishlash')),
+      appBar: AppBar(title: Text('ListView va Scrollbar bilan ishlash *')),
       body: Scrollbar(
         thickness: 10, // Scrollbar qalinligi
         radius: Radius.circular(5), // Scrollbar yumaloqligi
